@@ -8,6 +8,7 @@
 
 body {
     font-family: "Alegreya",sans-serif;
+    min-width: 360px;
 }
 
 /* Header */
@@ -22,7 +23,48 @@ body {
     background-position: center;
 }
 
+#top-bar {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.social-button {
+    
+}
+
+#social-icons a {
+    color: #fff;
+}
+
+#social-icons a:hover {
+    color: #eeeeee;
+}
+
 #header-logo a {
     margin: 0 auto;
     display: inline-block;
+}
+
+#header-menu {
+    margin-top: 20px;
+}
+
+#header-menu a {
+    color: #fff;
+    font-size: 24px;
+    padding: 0 0 5px 0;
+    margin: 30px;
+}
+
+#header-menu a:hover {
+    text-decoration: none;
+    color: #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.header-call-to-action {
+    font-weight: 500;
+    font-size: 24px;
+    position: relative;
+    top: 220px;
 }
