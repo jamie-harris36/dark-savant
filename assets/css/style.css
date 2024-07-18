@@ -150,6 +150,55 @@ body {
 }
 
 
+/* Sign Up */
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.form-container input,
+.form-container button {
+    margin: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    background-color: #787878;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    width: 650px;
+    height: 50px;
+    border-radius: 0;
+    border: none;
+}
+
+.submit {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #000;
+    background-color: #787878;
+}
+
+.form-control::placeholder {
+    color: #000;
+}
+
+.form-container input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 
 /* Footer */
 
