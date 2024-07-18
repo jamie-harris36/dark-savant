@@ -7,6 +7,8 @@
 }
 
 body {
+    background-color: #000;
+    color: #fff;
     font-family: "Alegreya",sans-serif;
     min-width: 420px;
 }
@@ -119,7 +121,7 @@ body {
 
 .music-item a {
     font-size: 20px;
-    color: #000;
+    color: #fff;
 }
 
 .music-item a:hover {
@@ -142,7 +144,7 @@ body {
 }
 
 .merch-item a {
-    color: #000;
+    color: #fff;
 }
 
 .merch-item a:hover {
@@ -239,7 +241,7 @@ footer {
 
 .legal-pages a,
 .footer-socials a {
-    color: #000;
+    color: #fff;
 }
 
 .legal-pages a:hover {
