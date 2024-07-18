@@ -130,6 +130,27 @@ body {
     color: #6f279c;
 }
 
+
+/* Merch */
+
+#merch {
+    margin-top: 90px;
+}
+
+.merch-item p {
+    font-size: 20px;
+}
+
+.merch-item a {
+    color: #000;
+}
+
+.merch-item a:hover {
+    text-decoration: none;
+}
+
+
+
 /* Footer */
 
 footer {
