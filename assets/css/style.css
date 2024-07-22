@@ -400,6 +400,7 @@ footer {
 
     #menu-toggle:checked + .menu-icon .bar2 {
         opacity: 0;
+        width: 0;
     }
 
     #menu-toggle:checked + .menu-icon .bar3 {
@@ -413,6 +414,10 @@ footer {
 
     .menu-icon .icon-bar {
         transition: all 0.3s ease;
+    }
+
+    .menu-icon .bar2 {
+        transition: 0.000000000000000000001s ease;
     }
 
 }
