@@ -201,7 +201,7 @@ body {
 
 .form-control {
     padding: 10px;
-    background-color: #787878;
+    background-color: #a1a1a1;
     color: #000;
     font-size: 24px;
     font-weight: 500;
@@ -220,7 +220,7 @@ body {
 
 .form-control:focus {
     color: #000;
-    background-color: #787878;
+    background-color: #a1a1a1;
 }
 
 .form-control::placeholder {
