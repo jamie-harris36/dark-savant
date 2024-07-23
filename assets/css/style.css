@@ -212,6 +212,18 @@ body {
     background-color: rgba(0,0,0,0);
 }
 
+.get-notified {
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+.tour-call-to-action {
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
 
 /* News */
 
@@ -563,6 +575,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .get-notified {
+        font-size: 14px;
+    }
+    
     .form-container {
         flex-direction: column;
     }
@@ -605,6 +621,10 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    .get-notified {
+        font-size: 12px;
+    }
+    
     .tour-call-to-action {
         padding: 5px;
         font-size: 20px;
