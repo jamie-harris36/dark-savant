@@ -141,6 +141,17 @@ body {
     display: none;
 }
 
+.menu-icon-home {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 1000;
+}
+
 .menu-icon {
     display: none;
     font-size: 24px;
@@ -396,11 +407,18 @@ footer {
         transition: 0.3s ease;
     }
 
-    .menu-icon {
+    .menu-icon-home {
         display: block;
         position: absolute;
         top: 10px;
         right: 10px;
+    }
+    
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: -55px;
     }
 
     #header-logo {
@@ -417,6 +435,13 @@ footer {
     }
 
     #menu-toggle:checked ~ .menu-icon {
+        display: flex;
+        position: fixed;
+        top: 10px;
+        right: 20px;
+    }
+
+    #menu-toggle:checked ~ .menu-icon-home {
         display: flex;
         position: fixed;
         top: 10px;
@@ -473,8 +498,39 @@ footer {
         transform: translate(-50%, -50%) rotate(-45deg);
     }
 
+    #menu-toggle:checked + .menu-icon-home .bar1 {
+        transform: rotate(45deg);
+        margin: 0;
+        position: absolute;
+        top: 15px;
+        left: 80%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    #menu-toggle:checked + .menu-icon-home .bar2 {
+        opacity: 0;
+        width: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon-home .bar3 {
+        transform: rotate(-45deg);
+        margin: 0;
+        position: absolute;
+        top: 15px;
+        left: 80%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .menu-icon-home .icon-bar {
+        transition: all 0.3s ease;
+    }
+
     .menu-icon .icon-bar {
         transition: all 0.3s ease;
+    }
+
+    .menu-icon-home .bar2 {
+        transition: 0.000000000000000000001s ease;
     }
 
     .menu-icon .bar2 {
