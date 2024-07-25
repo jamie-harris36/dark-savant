@@ -584,6 +584,10 @@ footer {
         font-size: 14px;
     }
     
+    #music h3 {
+        font-size: 28px;
+    }
+
     .form-container {
         flex-direction: column;
     }
