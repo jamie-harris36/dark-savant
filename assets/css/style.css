@@ -40,6 +40,23 @@ body {
     color: #000;
 }
 
+#content {
+    width: 60%;
+}
+
+#content p {
+    font-size: 18px;
+}
+
+.content-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#content ol {
+    margin-left: 15px;
+}
+
 
 /* Modal */
 
@@ -228,6 +245,15 @@ body {
 
 #news {
     margin: 50px auto 0 auto;
+}
+
+.news-item h3 a, h4 a {
+    color: #fff;
+}
+
+.news-item h3 a:hover, h4 a:hover {
+    text-decoration: none;
+    color: #49328a;
 }
 
 .news-item img {
