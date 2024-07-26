@@ -44,8 +44,8 @@ body {
     width: 60%;
 }
 
-#content p {
-    font-size: 18px;
+.content-heading {
+    font-size: 32px;
 }
 
 .content-img {
@@ -409,6 +409,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 1106px) {
+    #content {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .copyright-and-legal {
         width: 75%;
@@ -426,6 +432,10 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
+    #content {
+        width: 80%;
+    }
+    
     #social-icons {
         display: none;
     }
@@ -653,7 +663,17 @@ footer {
     }
 }
 
+@media screen and (max-width: 589px) {
+    .content-heading {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 576px) {
+    #content {
+        width: 90%;
+    }
+    
     .tickets {
         padding: 3px;
     }
