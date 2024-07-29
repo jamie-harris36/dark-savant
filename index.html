@@ -207,27 +207,19 @@
                         <h2 class="section-heading text-uppercase mb-4">Video</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="embed-responsive embed-responsive-16by9 mt-4">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BW8L_MgS1D0?si=ENzbUDUh8uX7BlGp" allowfullscreen></iframe>
-                        </div>
+                <div class="container mt-5" id="video-section">
+                    <div class="video-container mb-5">
+                        <iframe id="videoPlayer" src="https://www.youtube.com/embed/BW8L_MgS1D0?si=lTXWu5vBUz9YGqf1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="embed-responsive embed-responsive-16by9 mt-4">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0jK_68xKx2M?si=0dikARFrgIXxXI1h" allowfullscreen></iframe>
+                    <div class="row thumbnails">
+                        <div class="col-lg-4 thumbnail">
+                            <img src="assets/images/thumbnail1.webp" alt="Thumbnail 1" onclick="changeVideo('BW8L_MgS1D0')">
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="embed-responsive embed-responsive-16by9 mt-4">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6GRBSkxlsJY?si=Wb9hD3N5nV080l_Z" allowfullscreen></iframe>
+                        <div class="col-lg-4 thumbnail">
+                            <img src="assets/images/thumbnail2.webp" alt="Thumbnail 2" onclick="changeVideo('6GRBSkxlsJY')">
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="embed-responsive embed-responsive-16by9 mt-4">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tyjZ0BZWdcQ?si=Sezg5qhTlKe5S2oI" allowfullscreen></iframe>
+                        <div class="col-lg-4 thumbnail">
+                            <img src="assets/images/thumbnail3.webp" alt="Thumbnail 3" onclick="changeVideo('0jK_68xKx2M')">
                         </div>
                     </div>
                 </div>
@@ -298,6 +290,12 @@
             <p class="legal-pages"><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="cookies-policy.html">Cookies Policy</a></p>
         </div>
     </footer>
+    <script>
+        function changeVideo(videoId) {
+            const player = document.getElementById('videoPlayer');
+            player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
