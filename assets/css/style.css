@@ -57,6 +57,18 @@ body {
     margin-left: 15px;
 }
 
+a {
+    color: #a180a9;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6f279c;
+}
+
+.tour-list {
+    list-style-type: none;
+}
 
 /* Modal */
 
