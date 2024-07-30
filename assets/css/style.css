@@ -358,8 +358,8 @@ table {
     transition: transform 0.3s ease;
 }
 
-.thumbnails img:hover {
-    transform: scale(1.1); /* Zoom in effect */
+.thumbnails img:hover { 
+    transform: scale(1.1);
 }
 
 
@@ -373,12 +373,33 @@ table {
     font-size: 20px;
 }
 
-.merch-item a {
+.merch-item-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.merch-item-image img:hover {
+    transform: scale(1.03);
+}
+
+.merch-item a,
+.merch-item-listing a {
     color: #fff;
 }
 
-.merch-item a:hover {
+.merch-item a:hover,
+.merch-item-listing a:hover {
     text-decoration: none;
+}
+
+.merch-item-name {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.merch-price {
+    font-size: 28px;
 }
 
 
