@@ -277,9 +277,33 @@ a:hover {
 
 /* Music */
 
-.music-item img {
+.album {
     width: 100%;
+    margin: 0 auto;
+}
+
+.music-item img {
+    width: 80%;
     border-radius: 5px;
+}
+
+.track-listing {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#music ol {
+    margin-left: 15px;
+}
+
+#music hr {
+    display: none;
+    background-color: #fff;
+    height: 1px;
+    width: 90%;
+    margin: 40px auto 70px auto;    
 }
 
 .music-item a {
@@ -294,6 +318,7 @@ a:hover {
 .listen-now:hover {
     color: #6f279c;
 }
+
 
 /* Video */
 
@@ -472,6 +497,19 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+    #music hr {
+        display: block;
+    }
+
+    #music h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .listen-now {
+        text-align: center;
+    }
+    
     .video-container {
         margin-top: -30px;
     }
@@ -485,9 +523,6 @@ footer {
         font-size: 22px;
     }
 
-    #music h3 {
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width: 950px) {
@@ -677,6 +712,14 @@ footer {
         font-size: 14px;
     }
     
+    .music-container {
+        width: 90%;
+    }
+
+    #music ol {
+        margin-left: 0;
+    }
+
     #music h3 {
         font-size: 28px;
     }
