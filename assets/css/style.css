@@ -533,6 +533,30 @@ footer {
 }
 
 
+/* Thank You */
+
+#thank-you {
+    width: 100%;
+}
+
+#thank-you h1 {
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+#thank-you p {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.back-to-home {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 26px;
+}
+
 /* Smaller Screens */
 
 @media screen and (max-width: 1300px) {
@@ -801,6 +825,11 @@ footer {
         width: 95px;
         font-size: 18px;
     }
+
+    #thank-you h1 {
+        margin-top: 20px;
+        font-size: 58px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -857,6 +886,24 @@ footer {
         margin-top: 10px;
         margin-bottom: 60px;
     }
+
+    #thank-you {
+        width: 90%;
+    }
+
+    #thank-you h1 {
+        font-size: 48px;
+    }
+
+    #thank-you p {
+        font-size: 20px;
+    }
+
+    .back-to-home {
+        width: 170px;
+        padding: 10px;
+        font-size: 20px;
+    }
 }
 
 
@@ -889,6 +936,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 459px) {
+    #thank-you h1 {
+        font-size: 42px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .header-call-to-action {
         font-size: 20px;
@@ -913,6 +966,26 @@ footer {
         width: 95%;
         float: none;
     }
+
+    #thank-you h1 {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    #thank-you h1 {
+        font-size: 42px;
+    }
+
+    #thank-you p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    #thank-you h1 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -924,6 +997,16 @@ footer {
         padding: 5px;
         font-size: 16px;
     }
+
+    #thank-you h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #thank-you h1 {
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -931,6 +1014,18 @@ footer {
     .tickets {
         padding: 3px;
         font-size: 14px;       
+    }
+}
+
+@media screen and (max-width: 344px) {
+    #thank-you h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    #thank-you p {
+        font-size: 18px;
     }
 }
 
