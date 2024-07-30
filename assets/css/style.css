@@ -232,6 +232,10 @@ a:hover {
 
 /* Tour */
 
+table {
+    font-size: 14px;
+}
+
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: #343a40;
 }
@@ -776,6 +780,10 @@ footer {
         width: 90%;
     }
     
+    table {
+        font-size: 12px;
+    }
+
     .tickets {
         padding: 3px;
     }
@@ -860,9 +868,6 @@ footer {
 }
 
 @media screen and (max-width: 360px) {
-    table {
-        font-size: 14px;
-    }
     
     .tickets {
         padding: 3px;
@@ -878,10 +883,6 @@ footer {
     .header-call-to-action {
         padding: 5px;
         font-size: 14px;
-    }
-
-    table {
-        font-size: 12px;
     }
     
     .tickets {
