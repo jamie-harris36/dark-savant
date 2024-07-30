@@ -514,6 +514,25 @@ footer {
 }
 
 
+/* Legal Pages */
+
+#legal-page {
+    width: 90%;
+}
+
+#legal-page ul {
+    margin-left: 20px;
+}
+
+#legal-page a {
+    color: #fff;
+}
+
+#legal-page a:hover {
+    color: #a180a9;
+}
+
+
 /* Smaller Screens */
 
 @media screen and (max-width: 1300px) {
