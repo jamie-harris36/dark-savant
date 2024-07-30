@@ -383,6 +383,10 @@ table {
     transform: scale(1.03);
 }
 
+.merch-item-listing {
+    margin-top: 50px;
+}
+
 .merch-item a,
 .merch-item-listing a {
     color: #fff;
@@ -400,6 +404,15 @@ table {
 
 .merch-price {
     font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#merch hr {
+    display: none;
+    background-color: #fff;
+    height: 1px;
+    width: 80%;
+    margin: 40px auto 70px auto;    
 }
 
 
@@ -525,7 +538,7 @@ footer {
     #music hr {
         display: block;
     }
-
+    
     #music h3 {
         text-align: center;
         font-size: 40px;
@@ -548,6 +561,12 @@ footer {
         font-size: 22px;
     }
 
+}
+
+@media screen and (max-width: 991px) {
+    #merch hr {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 950px) {
