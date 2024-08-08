@@ -53,6 +53,9 @@ The website will be for various types of users with different motivations:
 
 ### Design, Layout & Structure
 
+#### **Wireframes**
+
+
 #### **Structure**
 
 The site has a simple structure, made up of 14 pages:
@@ -79,7 +82,7 @@ On the homepage, there is a header image that covers the entire screen, also kno
 
 There is also a footer on every page, containing the social media nav menu, links to legal pages, and a copyright notice.
 
-**Colours**
+#### **Colours**
 
 I have used the following colours as part of this website's colour pallette:
 
@@ -92,7 +95,7 @@ I have used the following colours as part of this website's colour pallette:
 - #eeeeee
 - #ffffff
 
-**Fonts**
+#### **Fonts**
 
 I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for the main body font. I feel this goes well with the dark theme the band is looking for.
 
@@ -129,19 +132,19 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 
 ### Whole Site
 
-**Social Media Menu**
+#### **Social Media Menu**
 
 - Appears on all pages, apart from the 404 and Thank You pages.
 - Contains links to official social media pages.
 - The menu appears on desktop screens, and is shown after the menu toggle icon is clicked on smaller screens.
 
-**Header Logo**
+#### **Header Logo**
 
 - Appears on all pages apart from the 404 and Thank You pages.
 - Links to the home page.
 - The logo is responsive and reduces in size on smaller screens.
 
-**Main Nav Menu**
+#### **Main Nav Menu**
 
 - Appears on all pages, apart from the 404 and Thank You pages.
 - Contains links to all the other main pages.
@@ -149,57 +152,160 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - There is a hover effect on other nav links.
 - Sign Up link opens up modal that appears over the page that contains an email sign up form.
 
-**Sign Up Form**
+#### **Sign Up Form**
 
 - Appears on all pages, apart from legal pages, 404 and Thank You pages.
 - Responsive, reduces in size on smaller screens.
 - Email input field is required and must be filled in in order to be submitted.
 
-**Footer**
+#### **Footer**
 
 - The footer appears on all pages.
 - The footer is responsive and as the screen gets smaller, so does the font size and the spacing.
 - The footer contains links to social media pages. The only exception is that this doesn't appear on the 404 page.
 
-**Favicon**
+#### **Favicon**
 
 - The Favicon is seen on the browser tab when any page is open. It displays the band logo. It helps the website to stand out against other websites that might not have a Favicon, or have a different Favicon.
 
 ### Home Page
 
-**Header Call to Action**
+#### **Header Call to Action**
 
 - Appears on the Home Page.
 - Links to external YouTube video
 - Responsive in size and reduces size on smaller screens.
 
-**Hero**
+#### **Hero**
 
 - The home page contains a hero image that covers the entire 'above the fold' section.
 - Doesn't appear on any other page.
 - The image is positioned underneath the social media menu, main nav menu, logo and call to action.
 
+#### **Tour Section**
+
+- The Tour section gives an overview of the first five shows on the tour, using a Bootstrap table.
+- There are buttons to buy tickets for each show.
+- There is a call to action button that will take the user to the TOUR page, to see more shows.
+- The table is responsive, the button and the text reduce size on smaller screens.
+
+#### **News Section**
+
+- There are three news items on a row, each containing a heading, a thumbnail, a brief description and a button to read more.
+- These buttons takes the user to the relevant news article.
+- The display is responsive, on smaller screens there is one news item per row.
+
+
+#### **Music Section**
+
+- There are three albums displayed in a row, containing the album cover images, album titles and a button to listen now.
+- The view is responsive, on smaller screens the albums are stacked on top of one another.
+
+#### **VIdeo Section**
+
+- An embedded YouTube video player is displayed, with three thumbnail images underneath.
+- The video player is designed not to autoplay so the user isn't surprised by sudden video or audio.
+- When a thumbnail image is clicked, the relevant video will autoplay in the video player.
+- The video player and thumbnails are responsive and are stacked on top of one another on smaller screens.
+
+#### **Merch Section**
+
+- There are three merch items displayed on a row, each with a thumbnail image, heading and button to buy the item.
+- The view is responsive, on smaller screens the merch items are stacked on top of one another.
+
 ### Tour Page
 
+- The tour page is an expanded version of the tour section located on the home page.
+- Instead of 5 shows that are displayed on the home page, there are 19.
+- The table is responsive, just like on the home page.
 
 ### News Page
 
+- There are three news items on a row, each containing a heading, a thumbnail, a brief description and a button to read more.
+- These buttons takes the user to the relevant news article.
+- The display is responsive, on smaller screens there is one news item per row.
 
 ### Music Page
 
+- The music page contains information about the three studio albums, divided into three sections.
+- Each album section contains information about the album title, release date, a button to listen to the album on streaming services, and the track listing.
+- The page is responsive for smaller screens.
 
 ### Video Page
 
+- An embedded YouTube video player is displayed, with three thumbnail images underneath.
+- The video player is designed not to autoplay so the user isn't surprised by sudden video or audio.
+- When a thumbnail image is clicked, the relevant video will autoplay in the video player.
+- The video player and thumbnails are responsive and are stacked on top of one another on smaller screens.
 
 ### Merch Page
 
+- The merch page contains 8 merch items, 3 per row on desktop view. 
+- Each item contains a thumbnail image, which zooms in when hovered over, as well as the item name, the price of the item, and a button taking the user to an external page to buy the item.
+- The view is responsive, with the items stacking on top of one another on smaller screens.
 
-### 404 Page
+### Content Pages
 
-### Thank You Page
+#### **New Album**
 
+- This page contains content, talking about the release of the new album. 
+- The article also contains a track listing and a large version of the thumbnail image underneath.
+- Underneath the image there is a section for 'More News' containing the other two news items on a single row, for easy navigation between articles.
+- This page is responsive, with the content fitting within the width of the page, even on smaller screens. On smaller screens, the related news items section are positioned one on top of another.
+
+#### **Tour Announced**
+
+- This page contains content, talking about the new tour.
+- There is a call to action, taking the user to the TOUR page, in order to prompt them to buy tickets.
+- The article also contains a list of all the shows that will be played, with a large thumbnail image underneath.
+- Underneath the image there is a section for 'More News' containing the other two news items on a single row, for easy navigation between articles.
+- This page is responsive, with the content fitting within the width of the page, even on smaller screens. On smaller screens, the related news items section are positioned one on top of another.
+
+#### **New Merch Released**
+
+- This page contains content, talking about the new merch that has been released.
+- In this article, the user is told they can buy merch at any of the shows, with a link provided to the TOUR page so the user can buy tickets.
+- Underneath the text, there is a large thumbnail image. This image links to the MERCH page, so the user can further look at the merch items for sale.
+- Underneath the image there is a section for 'More News' containing the other two news items on a single row, for easy navigation between articles.
+- This page is responsive, with the content fitting within the width of the page, even on smaller screens. On smaller screens, the related news items section are positioned one on top of another.
+
+### Legal Pages
+
+#### **Privacy Policy**
+
+- A simple web page showing a generic Privacy Policy template.
+
+#### **Terms of Use**
+
+- A simple web page showing a generic Terms of Use template.
+
+#### **Cookies Policy**
+
+- A simple web page showing a generic Cookies Policy template.
+
+### Other Pages
+
+#### **404 Page**
+
+- A simple web page that appears when the user lands on a non-existant page.
+- Improves UX, by having a branded 404 error page, it makes the user know they're still on the same website, as opposed to landing on a generic 404 page, where it will appear the user has navigated away from the website completely.
+- Contains a button linking back to the home page, so the user doesn't have to click the 'back' button. 
+
+#### **Thank You Page**
+
+- A simple web page that appears when the user submits a form.
+- Improves UX, tells the user that the form was sent correctly.
+- Contains a link to the home page, so the user doesn't have to click the 'back' button, improving UX.
 
 ## Testing & Bugs
+
+### Responsiveness
+
+### Clickable Links
+
+### Email Form
+
+### Code Validators
 
 ## Deployment
 
@@ -249,11 +355,11 @@ The project will now be cloned locally for you to use.
 
 ### Media
 
-**Videos**
+#### **Videos**
 
 - Videos are embedded from my YouTube channel https://www.youtube.com/@jaysavant/videos
 
-**Photos**
+#### **Photos**
 
 - Home Page
     - Background image was found at https://pxhere.com/en/photo/1457103 then adapted by myself.
