@@ -301,11 +301,35 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 
 ### Responsiveness
 
+The site was tested on the following devices:
+
+- HP Laptop
+- Samsung Galaxy A5
+- Google Chrome Developer Tools - simulator for many different devices and varying screen sizes, as well as the adjustable sizing options.
+
 ### Clickable Links
+
+- Each clickable link has been tested and made sure they go to the correct places. 
+- Each external link opens up in a new tab so the user isn't directed away from the website.
+- It should be noted that any external links to buy tickets, buy merch or listen to albums aren't real, as the tours, merch and albums are made up. The buttons to buy tickets, merch and stream albums direct the user to [Ticketmaster](https://www.ticketmaster.com/), [Merchbar](https://www.merchbar.com/), and [Spotify](https://open.spotify.com/) respectively.
 
 ### Email Form
 
+- I tested the email form several times, using the Code Institute form dump page as a template, but made the mistake when I added my own Thank You page of keeping "POST METHOD". Once I changed to "GET METHOD" the form worked fine. 
+
+### Video Player
+
+- I tried to find a way to make the video player change the video source when the relevant thumbnail is clicked. I used a tutorial (mentioned below) and adapted the code. There was a lot of trial and error involved.
+
 ### Code Validators
+
+I used the following code validators:
+
+#### **HTML Validator**
+
+#### **CSS Validator**
+
+#### **Wave Accessibilty Tool**
 
 ## Deployment
 
