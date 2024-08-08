@@ -326,6 +326,10 @@ table {
 
 /* Video */
 
+#videoPlayer {
+    border: 0px;
+}
+
 #video-section {
     margin-bottom: 120px;
 }
