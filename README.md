@@ -55,6 +55,82 @@ The website will be for various types of users with different motivations:
 
 #### **Wireframes**
 
+<details><summary>Home Page</summary>
+
+![Home Page Large Screens](assets/images/readme-images/home-wireframe-desktop.png)
+
+![Home Page Small Screens](assets/images/readme-images/home-wireframe-mobile.png)
+</details>
+
+<details><summary>Modals</summary>
+
+![Modal Large Screens](assets/images/readme-images/modal-wireframe-desktop.png)
+
+![Modal Small Screens](assets/images/readme-images/modal-wireframe-mobile.png)
+</details>
+
+<details><summary>Tour Page</summary>
+
+![Tour Page Large Screens](assets/images/readme-images/tour-wireframe-desktop.png)
+
+![Tour Page Small Screens](assets/images/readme-images/tour-wireframe-mobile.png)
+</details>
+
+<details><summary>News Page</summary>
+
+![News Page Large Screens](assets/images/readme-images/news-wireframe-desktop.png)
+
+![News Page Small Screens](assets/images/readme-images/news-wireframe-mobile.png)
+</details>
+
+<details><summary>Music Page</summary>
+
+![Music Page Large Screens](assets/images/readme-images/music-wireframe-desktop.png)
+
+![Music Page Small Screens](assets/images/readme-images/music-wireframe-mobile.png)
+</details>
+
+<details><summary>Video Page</summary>
+
+![Video Page Large Screens](assets/images/readme-images/video-wireframe-desktop.png)
+
+![Video Page Small Screens](assets/images/readme-images/video-wireframe-mobile.png)
+</details>
+
+<details><summary>Merch Page</summary>
+
+![Merch Page Large Screens](assets/images/readme-images/merch-wireframe-desktop.png)
+
+![Merch Page Small Screens](assets/images/readme-images/merch-wireframe-mobile.png)
+</details>
+
+<details><summary>News Article Pages</summary>
+
+![News Article Pages Large Screens](assets/images/readme-images/news-article-wireframe-desktop.png)
+
+![News Article Pages Small Screens](assets/images/readme-images/news-article-wireframe-mobile.png)
+</details>
+
+<details><summary>Legal Pages</summary>
+
+![Legal Pages Large Screens](assets/images/readme-images/legal-page-wireframe-desktop.png)
+
+![Legal Pages Small Screens](assets/images/readme-images/legal-page-wireframe-mobile.png)
+</details>
+
+<details><summary>Thank You Page</summary>
+
+![Thank You Page Large Screens](assets/images/readme-images/thank-you-wireframe-desktop.png)
+
+![Thank You Page Small Screens](assets/images/readme-images/thank-you-wireframe-mobile.png)
+</details>
+
+<details><summary>404 Error Page</summary>
+
+![404 Error Page Large Screens](assets/images/readme-images/404-wireframe-desktop.png)
+
+![404 Error Page Small Screens](assets/images/readme-images/404-wireframe-mobile.png)
+</details>
 
 #### **Structure**
 
