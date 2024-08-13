@@ -399,13 +399,99 @@ The site was tested on the following devices:
 
 ### Code Validators
 
-I used the following code validators:
+#### **HTML**
 
-#### **HTML Validator**
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 
-#### **CSS Validator**
+<details><summary>Home Page Validator</summary>
 
-#### **Wave Accessibilty Tool**
+![Home Page Validator](assets/images/readme-images/index-validator.png)
+</details>
+
+<details><summary>Tour Page Validator</summary>
+
+![Tour Page Validator](assets/images/readme-images/tour-validator.png)
+</details>
+
+<details><summary>News Page Validator</summary>
+
+![News Page Validator](assets/images/readme-images/news-validator.png)
+</details>
+
+<details><summary>Music Page Validator</summary>
+
+![Music Page Validator](assets/images/readme-images/music-validator.png)
+</details>
+
+<details><summary>Video Page Validator</summary>
+
+![Video PageValidator](assets/images/readme-images/video-validator.png)
+</details>
+
+<details><summary>Merch Page Validator</summary>
+
+![Merch Page Validator](assets/images/readme-images/merch-validator.png)
+</details>
+
+<details><summary>New Album Validator</summary>
+
+![New Album Validator](assets/images/readme-images/new-album-validator.png)
+</details>
+
+<details><summary>Tour Announced Validator</summary>
+
+![Tour Announced Validator](assets/images/readme-images/tour-announced-validator.png)
+</details>
+
+<details><summary>New Merch Validator</summary>
+
+![New Merch Validator](assets/images/readme-images/new-merch-validator.png)
+</details>
+
+<details><summary>Privacy Policy Validator</summary>
+
+![Privacy Policy Validator](assets/images/readme-images/privacy-policy-validator.png)
+</details>
+
+<details><summary>Terms of Use Validator</summary>
+
+![Terms of Use Validator](assets/images/readme-images/terms-of-use-validator.png)
+</details>
+
+<details><summary>Cookies Policy Validator</summary>
+
+![Cookies Policy Validator](assets/images/readme-images/cookies-policy-validator.png)
+</details>
+
+<details><summary>Thank You Page Validator</summary>
+
+![Thank You Page Validator](assets/images/readme-images/thank-you-validator.png)
+</details>
+
+<details><summary>404 Error Page</summary>
+
+![404 Page Validator](assets/images/readme-images/404-validator.png)
+</details>
+
+#### **CSS**
+
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/)
+
+![CSS Code Validator](assets/images/readme-images/css-validator.png)
+
+#### **Wave Accessibility Tool**
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used in final testing of the project to check for any accessibility aids.
+
+Testing was to ensure the following criteria was met:
+
+- All forms have aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
+
 
 ## Deployment
 
