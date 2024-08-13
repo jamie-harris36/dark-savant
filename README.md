@@ -214,11 +214,15 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - Contains links to official social media pages.
 - The menu appears on desktop screens, and is shown after the menu toggle icon is clicked on smaller screens.
 
+![Social Media Menu](assets/images/readme-images/social-menu-screenshot.png)
+
 #### **Header Logo**
 
 - Appears on all pages apart from the 404 and Thank You pages.
 - Links to the home page.
 - The logo is responsive and reduces in size on smaller screens.
+
+![Header Logo](assets/images/readme-images/header-logo-screenshot.png)
 
 #### **Main Nav Menu**
 
@@ -228,11 +232,15 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - There is a hover effect on other nav links.
 - Sign Up link opens up modal that appears over the page that contains an email sign up form.
 
+![Main Menu](assets/images/readme-images/main-menu-screenshot.png)
+
 #### **Sign Up Form**
 
 - Appears on all pages, apart from legal pages, 404 and Thank You pages.
 - Responsive, reduces in size on smaller screens.
 - Email input field is required and must be filled in in order to be submitted.
+
+![Sign Up Form](assets/images/readme-images/sign-up-form-screenshot.png)
 
 #### **Footer**
 
@@ -240,9 +248,13 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - The footer is responsive and as the screen gets smaller, so does the font size and the spacing.
 - The footer contains links to social media pages. The only exception is that this doesn't appear on the 404 page.
 
+![Footer](assets/images/readme-images/footer-screenshot.png)
+
 #### **Favicon**
 
 - The Favicon is seen on the browser tab when any page is open. It displays the band logo. It helps the website to stand out against other websites that might not have a Favicon, or have a different Favicon.
+
+![Favicon](assets/images/readme-images/favicon-screenshot.png)
 
 ### Home Page
 
@@ -252,11 +264,15 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - Links to external YouTube video
 - Responsive in size and reduces size on smaller screens.
 
+![Call to Action](assets/images/readme-images/call-to-action-screenshot.png)
+
 #### **Hero**
 
 - The home page contains a hero image that covers the entire 'above the fold' section.
 - Doesn't appear on any other page.
 - The image is positioned underneath the social media menu, main nav menu, logo and call to action.
+
+![Hero](assets/images/readme-images/hero-screenshot.png)
 
 #### **Tour Section**
 
@@ -265,11 +281,15 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - There is a call to action button that will take the user to the TOUR page, to see more shows.
 - The table is responsive, the button and the text reduce size on smaller screens.
 
+![Tour Section](assets/images/readme-images/tour-section-screenshot.png)
+
 #### **News Section**
 
 - There are three news items on a row, each containing a heading, a thumbnail, a brief description and a button to read more.
 - These buttons takes the user to the relevant news article.
 - The display is responsive, on smaller screens there is one news item per row.
+
+![News Section](assets/images/readme-images/news-section-screenshot.png)
 
 
 #### **Music Section**
@@ -277,17 +297,23 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - There are three albums displayed in a row, containing the album cover images, album titles and a button to listen now.
 - The view is responsive, on smaller screens the albums are stacked on top of one another.
 
-#### **VIdeo Section**
+![Music Section](assets/images/readme-images/music-section-screenshot.png)
+
+#### **Video Section**
 
 - An embedded YouTube video player is displayed, with three thumbnail images underneath.
 - The video player is designed not to autoplay so the user isn't surprised by sudden video or audio.
 - When a thumbnail image is clicked, the relevant video will autoplay in the video player.
 - The video player and thumbnails are responsive and are stacked on top of one another on smaller screens.
 
+![Video Section](assets/images/readme-images/video-section-screenshot.png)
+
 #### **Merch Section**
 
 - There are three merch items displayed on a row, each with a thumbnail image, heading and button to buy the item.
 - The view is responsive, on smaller screens the merch items are stacked on top of one another.
+
+![Merch Section](assets/images/readme-images/merch-section-screenshot.png)
 
 ### Tour Page
 
@@ -307,6 +333,8 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - Each album section contains information about the album title, release date, a button to listen to the album on streaming services, and the track listing.
 - The page is responsive for smaller screens.
 
+![Music Page](assets/images/readme-images/music-page-screenshot.png)
+
 ### Video Page
 
 - An embedded YouTube video player is displayed, with three thumbnail images underneath.
@@ -320,6 +348,8 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - Each item contains a thumbnail image, which zooms in when hovered over, as well as the item name, the price of the item, and a button taking the user to an external page to buy the item.
 - The view is responsive, with the items stacking on top of one another on smaller screens.
 
+![Merch Page](assets/images/readme-images/merch-page-screenshot.png)
+
 ### Content Pages
 
 #### **New Album**
@@ -328,6 +358,8 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - The article also contains a track listing and a large version of the thumbnail image underneath.
 - Underneath the image there is a section for 'More News' containing the other two news items on a single row, for easy navigation between articles.
 - This page is responsive, with the content fitting within the width of the page, even on smaller screens. On smaller screens, the related news items section are positioned one on top of another.
+
+![More News](assets/images/readme-images/more-news-screenshot.png)
 
 #### **Tour Announced**
 
@@ -367,11 +399,15 @@ I imported Google Fonts and used Alegreya (with a fallback of Sans Serif) for th
 - Improves UX, by having a branded 404 error page, it makes the user know they're still on the same website, as opposed to landing on a generic 404 page, where it will appear the user has navigated away from the website completely.
 - Contains a button linking back to the home page, so the user doesn't have to click the 'back' button. 
 
+![404 Page](assets/images/readme-images/404-screenshot.png)
+
 #### **Thank You Page**
 
 - A simple web page that appears when the user submits a form.
 - Improves UX, tells the user that the form was sent correctly.
 - Contains a link to the home page, so the user doesn't have to click the 'back' button, improving UX.
+
+![Thank You Page](assets/images/readme-images/thank-you-screenshot.png)
 
 ## Testing & Bugs
 
