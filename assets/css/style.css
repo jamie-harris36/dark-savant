@@ -11,9 +11,11 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #000;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
     color: #fff;
     font-family: "Alegreya",sans-serif;
+    font-weight: 500;
     width: 100%;
 }
 
@@ -233,7 +235,8 @@ a:hover {
 /* Tour */
 
 table {
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
