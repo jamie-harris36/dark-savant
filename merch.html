@@ -1,17 +1,28 @@
+    <!-- Written by Jamie Harris, last updated on August 27th 2024-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Savant | Merch</title>
+
+    <!-- Font Awesome code-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap code-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Link to stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon code-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
 <body>
+
+    <!-- Modal code from Bootstrap and modified-->
     <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="sign-up-modal modal-content bg-dark">
@@ -35,18 +46,25 @@
     </div>
     <header class="header">
         <nav class="text-center" id="top-bar">
+
+    <!-- This social media icon only displays on larger screens because I wanted this to display above the logo-->
             <ul id="social-icons" class="list-inline">
                 <li class="list-inline-item"><a href="https://www.instagram.com/darksavantofficial" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (Opens in new tab)"><i class="fa fa-instagram" style="font-size: 24px;"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.facebook.com/darksavantband" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new tab)"><i class="fa fa-facebook" style="font-size: 24px;"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.youtube.com/@darksavantofficial/videos" target="_blank" rel="noopener" aria-label="Visit our YouTube channel (opens in new tab)"><i class="fa fa-youtube-play" style="font-size: 24px;"></i></a></li>
             </ul>
         </nav>
+
+    <!-- This is the band logo, designed by myself and created on GIMP (open source version of PhotoShop)-->
         <div class="logo text-center">
             <a href="index.html">
                 <img src="assets/images/logo.webp" id="header-logo" alt="Dark Savant Logo">
             </a>
         </div>
         <nav class="menu">
+
+    <!-- This menu toggle is only displayed on smaller screens, I used the checkbox method so I could implement
+     this just by using HTML and CSS. This was explained to me by my mentor.-->
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">
                 <span class="sr-only">Toggle navigation menu</span>
@@ -54,14 +72,21 @@
                 <span class="icon-bar bar2"></span>
                 <span class="icon-bar bar3"></span>
             </label>
+
+    <!-- Main nav menu-->
             <ul class="list-inline text-center text-uppercase" id="header-menu">
                 <li class="list-inline-item"><a href="tour.html">Tour</a></li>
                 <li class="list-inline-item"><a href="news.html">News</a></li>
                 <li class="list-inline-item"><a href="music.html">Music</a></li>
                 <li class="list-inline-item"><a href="video.html">Video</a></li>
                 <li class="list-inline-item"><a href="merch.html">Merch</a></li>
+
+    <!-- This button is where the code for the modal is applied-->
                 <li class="list-inline-item"><a data-toggle="modal" data-target="#signupModal" style="cursor: pointer;">Sign Up</a></li>
             </ul>
+
+    <!-- This social media menu is the same as the one above, but is only seen when the menu toggle button (that's displayed
+     on smaller screens) is active-->
             <ul id="mobile-social-icons" class="list-inline">
                 <li class="list-inline-item"><a href="https://www.instagram.com/darksavantofficial" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (Opens in new tab)"><i class="fa fa-instagram" style="font-size: 24px;"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.facebook.com/darksavantband" target="_blank" rel=noopener aria-label="Visit our Facebook Page (Opens in new tab)"><i class="fa fa-facebook" style="font-size: 24px;"></i></a></li>
@@ -69,6 +94,8 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Merch page content-->
     <section class="container text-center" id="merch">
         <div class="container-wrapper mt-3 mb-3">
             <div class="container features-container content-container">
@@ -77,6 +104,8 @@
                         <h2 class="section-heading text-uppercase mb-5">Merch</h2>
                     </div>
                 </div>
+
+    <!-- Merch items-->
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <div class="merch-item-listing">
@@ -172,6 +201,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Sign up section-->
     <section class="container-flex bg-dark text-center text-uppercase" id="signup">
         <div class="container-wrapper mt-3">
             <div class="container features-container content-container">
@@ -180,6 +211,8 @@
                         <h2 class="section-heading text-uppercase">Sign Up</h2>
                     </div>
                 </div>
+
+    <!-- Sign up form, email address required-->
                 <div class="container mt-3 d-flex justify-content-center">
                     <form class="form-container" method="GET" action="thank-you.html">
                         <label for="email" class="sr-only">Enter your email address</label>
@@ -191,6 +224,8 @@
         </div>
     </section>
     <footer>
+
+    <!-- Footer social media menu-->
         <div class="footer-socials text-center">
             <ul class="social-icons list-inline">
                 <li class="social-button list-inline-item"><a href="https://www.instagram.com/darksavantofficial" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (Opens in new tab)"><i class="fa fa-instagram" style="font-size: 24px;"></i></a></li>
@@ -198,11 +233,15 @@
                 <li class="social-button list-inline-item"><a href="https://www.youtube.com/@darksavantofficial/videos" target="_blank" rel="noopener" aria-label="Visit our YouTube Channel (Opens in new tab)"><i class="fa fa-youtube-play" style="font-size: 24px;"></i></a></li>
             </ul>
         </div>
+
+    <!-- Copyright and legal pages-->
         <div class="copyright-and-legal text-uppercase bg-dark">
             <p class="copyright">© 2024 Dark Savant And LuthorVant Records</p>
             <p class="legal-pages"><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="cookies-policy.html">Cookies Policy</a></p>
         </div>
     </footer>
+
+    <!-- Modal Javascript code from Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
